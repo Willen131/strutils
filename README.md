@@ -8,6 +8,7 @@
 | --- | --- |
 | `count_words(text)` | 返回文本中的单词数量 |
 | `reverse_words(text)` | 反转文本中单词的顺序 |
+| `is_palindrome(text)` | 判断文本是否为回文 |
 
 ## 使用
 

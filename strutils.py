@@ -9,3 +9,8 @@ def count_words(text: str) -> int:
 def reverse_words(text: str) -> str:
     """反转文本中单词的顺序。"""
     return " ".join(reversed(text.split()))
+
+
+def is_palindrome(text: str) -> bool:
+    """判断文本是否为回文。"""
+    return text == text[::-1]
